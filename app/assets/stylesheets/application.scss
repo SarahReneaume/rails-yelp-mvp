@@ -1,0 +1,70 @@
+// Graphical variables
+@import "config/variables";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS
+@import "layout/index";
+@import "components/index";
+@import "pages/index";
+@import "vendor/index";
+
+
+h4{
+  color: #55B3F3;
+}
+
+.container {
+  margin: 10px 30px;
+}
+
+button {
+  height: 40px;
+  background-color: white;
+  color: #4ED99C;
+  border-radius: 4px;
+  border-color:#A3DEC9 ;
+  border: solid;
+  border-width: 1px;
+}
+
+// .nav-button {
+//   heigth : 25px;
+//   font-size: 20px;
+//   border-color:#9C999A;
+// }
+
+// a.nav-button{
+//    color:#9C999A;
+// }
+
+a{
+  text-decoration : none;
+  color: #4ED99C;
+}
+
+a:hover{
+  text-decoration : none;
+  color: #4ED99C;
+}
+
+.col-sm-4{
+  margin: 0px 40px;
+}
+
+.review-box{
+  margin: 40px;
+}
+
+.review-box{
+  border: solid;
+  border-width: 1px;
+  border-color: #F6C667;
+  border-radius:4px;
+  padding: 15px;
+}

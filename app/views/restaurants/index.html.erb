@@ -1,0 +1,26 @@
+<h1>Restaurants</h1>
+
+
+<div class="container">
+
+    <% @restaurants.each do |restaurant| %>
+     <div class="col-xs-12 col-sm-4">
+       <div class="card">
+          <h4><%= restaurant.name %></h4>
+          <p><%= restaurant.address %></p>
+          <p><%= restaurant.category %></p>
+          <button> <%=link_to "See details", restaurant_path(restaurant.id)%> </button>
+        </div>
+       </div>
+    <% end %>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
